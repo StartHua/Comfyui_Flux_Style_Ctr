@@ -13,10 +13,11 @@ class CXH_StyleModelApply:
             "style_model": ("STYLE_MODEL",),
             "clip_vision_output": ("CLIP_VISION_OUTPUT",),
             "strength": ("FLOAT", {
-                "default": 1.0,
+                "default": 1,
                 "min": 0.0,
-                "max": 2.0,
-                "step": 0.01
+                "max": 2,
+                "step":0.01,
+                "display": "slider"
             }),
         }}
     
